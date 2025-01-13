@@ -4,9 +4,8 @@
 
 
 ## Installation :
-```bash
+
 `npm i kaiz-downloader`
-```
 
 ## Facebook :
 ```js
