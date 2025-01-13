@@ -25,9 +25,35 @@ kaiz.downloadContent('insta', 'https://instagram.com/post-url')
     .then(data => console.log('Instagram Response:', data))
     .catch(err => console.error('Error:', err));
 ```
-## Output Example :
+## Tiktok :
 ```js
-{
-    console.log('Platform Response:', data))
-}
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('tiktok', 'https://tiktok.com/video-url')
+    .then(data => console.log('TikTok Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Capcut :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('capcut', 'https://capcut-url.com')
+    .then(data => console.log('CapCut Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Pinterest :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('pinterest', 'https://pinterest.com/pin-url')
+    .then(data => console.log('Pinterest Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Reddit :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('reddit', 'https://reddit.com/post-url')
+    .then(data => console.log('Reddit Response:', data))
+    .catch(err => console.error('Error:', err));
 ```
