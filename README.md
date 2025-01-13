@@ -25,12 +25,20 @@ kaiz.downloadContent('insta', 'https://instagram.com/post-url')
     .then(data => console.log('Instagram Response:', data))
     .catch(err => console.error('Error:', err));
 ```
-## Tiktok :
+## TikTok :
 ```js
 const kaiz = require('kaiz-downloader');
 
 kaiz.downloadContent('tiktok', 'https://tiktok.com/video-url')
     .then(data => console.log('TikTok Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## YouTube :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('yt', 'https://youtube.com/video-url', '720')
+    .then(data => console.log('YouTube Response:', data))
     .catch(err => console.error('Error:', err));
 ```
 ## Capcut :
@@ -55,5 +63,45 @@ const kaiz = require('kaiz-downloader');
 
 kaiz.downloadContent('reddit', 'https://reddit.com/post-url')
     .then(data => console.log('Reddit Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Snapchat :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('snapchat', 'https://snapchat.com/video-url')
+    .then(data => console.log('Snapchat Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## SoundCloud :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('soundcloud', 'https://soundcloud.com/track-url')
+    .then(data => console.log('SoundCloud Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Spotify :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('spotify', 'https://spotify.com/track-or-album-url')
+    .then(data => console.log('Spotify Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## Twitter (X) : 
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('twitter', 'https://twitter.com/video-url')
+    .then(data => console.log('Twitter Response:', data))
+    .catch(err => console.error('Error:', err));
+```
+## PornHub :
+```js
+const kaiz = require('kaiz-downloader');
+
+kaiz.downloadContent('pornhub', 'https://pornhub.com/video-url')
+    .then(data => console.log('PornHub Response:', data))
     .catch(err => console.error('Error:', err));
 ```
