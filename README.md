@@ -107,4 +107,4 @@ kaiz.downloadContent('pornhub', 'https://pornhub.com/video-url')
 ```
 ## Output :
 
-* You can see the raw `response.data` in logs.
+* You can see the raw `response.data` in logs along with the `metadata` from selected `platforms`.
