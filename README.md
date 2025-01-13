@@ -112,4 +112,4 @@ kaiz.downloadContent('pornhub', 'https://pornhub.com/video-url')
 ## Issues :
 * If you notice this npm package has troubleshooting feel free to reach me out.
 
-*Contact*: [Facebook](https://www.facebook.com/known.as.kaizenji)
+* Contact: [Facebook](https://www.facebook.com/known.as.kaizenji)
