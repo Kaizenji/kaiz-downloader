@@ -29,7 +29,7 @@ kaiz.downloadContent('insta', 'https://instagram.com/post-url')
 ```js
 const kaiz = require('kaiz-downloader');
 
-kaiz.downloadContent('tiktok', 'https://tiktok.com/video-url')
+kaiz.downloadContent('tiktok', 'https://tiktok.com/video-url') // support photos url.
     .then(data => console.log('TikTok Response:', data))
     .catch(err => console.error('Error:', err));
 ```
