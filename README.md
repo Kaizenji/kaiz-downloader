@@ -1,6 +1,6 @@
 # kaiz-downloader
 
-* A simple Node.js package to download content from various platforms like YouTube, TikTok, Instagram, Twitter, Facebook, and more.
+* A simple `Node.js` package to download content from various platforms like `YouTube`, `TikTok`, `Instagram`, `Twitter`, `Facebook`, and more.
 
 
 ## Installation :
@@ -105,4 +105,6 @@ kaiz.downloadContent('pornhub', 'https://pornhub.com/video-url')
     .then(data => console.log('PornHub Response:', data))
     .catch(err => console.error('Error:', err));
 ```
-* You can see the raw response.data in logs.
+## Output :
+
+* You can see the raw `response.data` in logs.
