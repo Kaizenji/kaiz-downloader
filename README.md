@@ -5,7 +5,7 @@
 
 ## Installation :
 ```bash
-npm i kaiz-downloader
+`npm i kaiz-downloader`
 ```
 
 ## Facebook :
