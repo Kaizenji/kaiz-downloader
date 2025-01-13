@@ -1,6 +1,6 @@
 # kaiz-downloader
 
-* A simple `Node.js` package to download content from various platforms like `YouTube`, `TikTok`, `Instagram`, `Twitter`, `Facebook`, and more.
+* A simple `Node.js` package to download videos from various platforms like `YouTube`, `TikTok`, `Instagram`, `Twitter`, `Facebook`, and more.
 
 
 ## Installation :
@@ -37,7 +37,7 @@ kaiz.downloadContent('tiktok', 'https://tiktok.com/video-url')
 ```js
 const kaiz = require('kaiz-downloader');
 
-kaiz.downloadContent('yt', 'https://youtube.com/video-url', '720')
+kaiz.downloadContent('yt', 'https://youtube.com/video-url', '360') //supported qualities are 140, 360, 480, 720, 1080.
     .then(data => console.log('YouTube Response:', data))
     .catch(err => console.error('Error:', err));
 ```
