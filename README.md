@@ -110,6 +110,6 @@ kaiz.downloadContent('pornhub', 'https://pornhub.com/video-url')
 * You can see the raw `response.data` in `console.log` along with the `metadata` from selected platforms.
 
 ## Issues :
-* If you notice this npm package has troubleshooting feel free to reach me out.
+* If you notice this `NPM package` has troubleshooting feel free to reach me out.
 
 * Contact: [Facebook](https://www.facebook.com/known.as.kaizenji)
