@@ -22,7 +22,7 @@ async function downloadContent(type, url, quality = null) {
             throw new Error('Invalid type provided');
         }
 
-        // Append quality for YouTube if provided
+        // For Yt param quality
         if (type === 'yt' && quality) {
             apiUrl += `&quality=${quality}`;
         }
