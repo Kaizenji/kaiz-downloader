@@ -7,7 +7,7 @@
 ```bash
 npm i kaiz-downloader
 ```
-## Platform Usages :
+* Platform Usage:
 ## Facebook :
 ```js
 const kaiz = require('kaiz-const kaiz = require('kaiz-downloader');
