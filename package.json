@@ -1,7 +1,7 @@
 {
-  "name": "kaiz-upscale",
+  "name": "kaiz-downloader",
   "version": "1.0.0",
-  "description": "A simple Node.js package for upscaling images using the Kaiz Upscale API.",
+  "description": "A simple Node.js package to download content from various platforms like YouTube, TikTok, Instagram, Twitter, Facebook, and more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kaizenji/kaiz-upscale.git"
+    "url": "https://github.com/Kaizenji/kaiz-downloader.git"
   },
   "keywords": [
-    "image upscaler",
-    "kaiz-upscale",
-    "upscale images",
-    "image enhancement",
-    "upscale",
-    "remini"
+    "video downloader",
+    "kaiz-downloader",
+    "Facebook, Instagram, Tiktok etc",
+    "all-in-one",
+    "downloader",
+    "nodejs"
   ]
 }
